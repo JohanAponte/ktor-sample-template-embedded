@@ -1,11 +1,12 @@
 package com.example.plugins
 
 import io.ktor.server.routing.*
-import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
-import io.ktor.server.request.*
 
+/**
+ * Configuration Routing set the end-points
+ */
 fun Application.configureRouting() {
 
     // Starting point for a Ktor app:
